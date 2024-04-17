@@ -26,9 +26,6 @@ redis:
 	# Setup Tracy panel
 	debug: %debugMode%
 
-	# Default client factory
-	clientFactory: Predis\Client
-
 	connection:
 		default:
 			uri: tcp://127.0.0.1:6379
